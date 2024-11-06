@@ -6,6 +6,10 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/mobileFirst.css">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+
+    
 </head>
 <body>
     <main>
@@ -18,10 +22,18 @@
 
                 <form action="login.php"  method="post">
                         
-                    <label for="gmail">Email:</label>
+                    <label for="gmail">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                            </span>
+                    </label>
                     <input type="email" name="email" id="gmail"size="30" required placeholder="Insira seu Email"><br>
                     
-                    <label for="password">Senha:</label>
+                    <label for="password">
+                        <span class="material-symbols-outlined">
+                            vpn_key
+                        </span>
+                    </label>
                     <input type="password" name="senha" id="password" size="30" required autocomplete="no" minlength="8" placeholder="Qual a palavra secreta?"><br>
                     <p class="crie">Não tem uma conta? <a href="#">Crie uma!</a></p>
                     <p class="forget">Droga... <a href="#">Esqueci minha senha</a></p>
